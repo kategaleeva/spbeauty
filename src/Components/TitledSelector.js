@@ -25,6 +25,13 @@ border-radius: 24px;
 `;
 
 function TitledSelector({title, options}) {
+    <TitledSelector 
+    title='Тип организации' 
+    options={[
+        'Салон красоты',
+        'Парикмахерская'
+    ]}
+/>
     const Title = title === undefined ? 
         (<div></div>) : 
         (<div>{title}</div>);

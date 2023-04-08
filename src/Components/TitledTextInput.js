@@ -20,6 +20,7 @@ height: 34px;
 `;
 
 function TitledTextInput({title, def}) {
+    <TitledTextInput title='Название компании' def='SPBEAUTY'/>
     const Title = title === undefined ? 
         (<div></div>) : 
         (<div>{title}</div>);
