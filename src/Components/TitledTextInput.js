@@ -13,7 +13,7 @@ height: 34px;
     border: 1px solid #E2E8F0;
     border-radius: 24px;
     background-color: #F8FAFC;
-    color: #666787;
+    color: #0F172A;
     &:hover {
         background-color: #D9E2EFB8;
     }
