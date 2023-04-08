@@ -36,7 +36,7 @@ const SearchIconWrapper = styled.div`
 function SearchField() {
     return (
         <WrapperInput className='d-inline-flex'>  {/* Устанавливает ширину поля и включает относительное положение */}
-            <Input className='p-2' placeholder='Найти'/>
+            <Input className='p-2 ps-3' placeholder='Найти'/>
             <SearchIconWrapper className='p-1'>  {/* Устанавливает абсолютное положение внутри поля ввода */}
                 <IconOnlyButton icon={<SearchIcon/>}/>
             </SearchIconWrapper>
