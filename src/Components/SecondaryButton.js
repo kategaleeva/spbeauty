@@ -13,10 +13,12 @@ function SecondaryButton(props) {
         &:hover {
             background: #FFFFFF;
             border: #FFFFFF;
+            opacity: 0.8
         }
         &:active {
             background: #FFFFFF;
             border: #FFFFFF;
+            opacity: 0.6;
         }
     `;
     return (
