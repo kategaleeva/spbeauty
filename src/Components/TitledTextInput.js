@@ -23,7 +23,7 @@ function TitledTextInput({title, def}) {
     <TitledTextInput title='Название компании' def='SPBEAUTY'/>
     const Title = title === undefined ? 
         (<div></div>) : 
-        (<div>{title}</div>);
+        (<div className='caption'>{title}</div>);
     return (
         <div className='d-flex flex-column gap-2'>
             {Title}
